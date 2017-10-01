@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+.header {
+	top:0px !important;
+	position: fixed;
+	background-color: #b0b3c0;
+	width: 110%;
+	height: 50px;
+	margin-left: -10px;
+	margin-right: -10px;  
+}
+.menu2 /*.li*/
+{
+	list-style: none;    /*убирает маркеры*/
+	float: left;         /*выводит все в строчку*/
+	padding-right: 10px; /*отступы между категориями*/
+}
+.menu li {
+	display: inline;
+}
+a {
+	text-decoration: none;
+}
+a {
+	color: #000; 
+}
+.menu a {
+	padding: 15px;
+	padding-top: 16px;
+	font-family: Lora;
+}
+.menu {
+	width: 400px;
+    display: inline-block;
+}
+.menu_hover-highlight a:hover { 
+	color: #fff;
+	background: #177aa1;
+}
+.form { 
+	padding: none;
+	position: absolute;
+	width: 9em;
+	top: 45%;
+	left: 45%;
+}
+.logo {
+    width: 160px;
+    display: inline-block;
+    padding: 0px;
+    padding-left: 10%;
+}
+.logo__icon {
+	display: inline-block;
+	padding: 0px;
+	background-image: url('../logo.png');
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+}
+.menu__item_selected a:hover{
+	color: #177aa1;
+	background: none;
+}
+.menu__item_selected a{
+	color: #177aa1;
+}
+.content{
+	margin-top: 50px;
+}
+.form__button{
+	border: 3px solid #fff;
+	background: none;
+	width: 10em;
+	height: 3em;
+	color: #fff;
+}
+.form__button_hover-highlight:hover{
+	background-color: #177aa1;
+	color: #fff;
+	border: none;
+}
+.content__paragraph{
+	padding: 1em;
+}
+.list{
+	padding: 3em;
+}
